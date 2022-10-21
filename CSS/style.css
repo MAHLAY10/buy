@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+.main,
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.content{
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    width: 250px;
+    padding: 13px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.cover{
+    max-width: 350px;
+    max-height: 300px;
+    position: relative;
+    height: 260px;
+    width: 300px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.pmage{
+    width: 90%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 200%;
+    position: relative;
+}
+
+.perf-img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.perf{
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.word{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: 15px 0px;
+    font-size: 8px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    width: 60px;
+    margin: 15px 0px;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.new-price{
+    color: #3f8068;
+    font-size: large;
+    font-weight: 900;
+}
+
+.btn-content,
+button{
+    background: #3f8068;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.b-img{
+    height: 10px;
+    width: 10px;
+}
+
+.t-head{
+    font-family: 'Robot o', arial, sans-serif;
+    margin: 15px 0px;
+    color: hsl(212, 21%, 14%);
+    font-size: 18px;
+}
+
+.b-img{
+    color: hsl(0, 0%, 100%);
+    transform: scale(1.2);
+    margin-right: 8px;
+}
+
+.old-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+@media only screen and (max-width: 768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    html{
+        height: 100vh;
+    }
+
+    .main,
+    body{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-color: hsl(30, 38%, 92%);
+        padding-bottom: 100px;
+        margin: 0px; 
+        height: 100%;
+        width: 100%;
+
+}
+
+    .cover{
+        position: relative;
+        word-wrap: break-word;
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 0px;
+        row-gap: 0px;
+        border-top-left-radius: 8px;
+        outline: none;
+        border: none;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .content{
+        background-size: cover;
+        box-sizing: border-box;
+        background-position: center;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0px;
+        outline: none;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+
+    .pmage{
+        background-position: center;
+        box-sizing: border-box;
+        width: 100%;
+        height: 130px;
+        background-size: cover;
+        max-height: 100%;
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .perf-img{
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+        outline: none;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .price{
+        margin: 3px 0px;
+        display:grid;
+        grid-template-columns: auto auto;
+        column-gap: 3px;
+    }
+
+    .new{
+        width:60px;
+    }
+
+    .btn-content,
+button{
+    width: 100%;
+    height: 27px;
+}
+}
